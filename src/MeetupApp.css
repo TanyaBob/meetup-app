@@ -1,0 +1,155 @@
+.app-container {
+    text-align: left;
+}
+
+.meetup-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background: #9b9b9b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.panel-input-container {
+    min-width: 200px;
+    overflow-x: hidden;
+    width: 25%;
+}
+
+.panel-input-container input {
+    width: 100%;
+    color: grey;
+}
+
+.btn-panel {
+    background: #cf6060;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px 1px #847878;
+    color: #133f41;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-remove {
+    margin-left: 10px;
+}
+
+.btn-remove[disabled] {
+   background: lightgray;
+    cursor: not-allowed;
+}
+
+.meetup-header {
+    height: 100%;
+    background-color: cadetblue;
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+}
+
+.meetup-list-container {
+    padding: 20px 40px;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.meetup-list-table {
+    width: 100%;
+}
+
+.table-line {
+    display: flex;
+}
+
+.table-line-item {
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.table-line-item.item-1 {
+    flex: 1;
+}
+
+.table-line-item.item-2 {
+    flex: 3;
+}
+
+.table-line-item.item-3 {
+    flex: 2;
+}
+
+.table-line-item.item-4 {
+    flex: 3;
+}
+
+input {
+    font-size: 16px;
+    box-shadow: inset 0px 0px 1px 1px #f3e7e7;
+}
+
+.popup-container {
+    position: absolute;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    width: 25%;
+    padding: 20px;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popup-container h3 {
+    color: #808080;
+}
+
+.popup-editable-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.popup-editable-line {
+    margin: 10px 0;
+    width: 50%;
+}
+
+.popup-editable-line input, .popup-editable-line select {
+    width: 100%;
+    color: #767676;
+    font-size: 16px;
+    box-shadow: inset 0px 0px 1px 1px #f3e7e7;
+}
+
+.popup-controls-panel {
+    margin: 10px 0 0 0;
+    align-self: flex-end;
+}
+
+.popup-controls-panel .btn {
+    background: #9b9b9b;
+    color: aliceblue;
+    border: transparent;
+    padding: 8px;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-left: 10px;
+}
+
+.DayPickerInput {
+    display: flex;
+    position: relative;
+}
+
+.DayPickerInput-OverlayWrapper {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
