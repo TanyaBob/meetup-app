@@ -17,7 +17,6 @@ class Popup extends Component {
         newItem.place = place;
         newItem.isComplete = false;
         this.props.addItemToList(newItem);
-        console.log(this.props);
     };
 
     handleAddCancel = (evt) => {

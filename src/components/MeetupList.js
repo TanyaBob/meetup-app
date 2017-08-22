@@ -17,7 +17,6 @@ const MeetupItem = ({name, date, place, isComplete, handleCheckboxChange, id}) =
 
 class MeetupList extends Component {
     handleCheckAllItems = (evt) => {
-        console.log('handleCheckAllItems --> evt.target.checked', evt.target.checked);
         this.props.toggleAllItemsSelect(evt.target.checked);
     };
 
